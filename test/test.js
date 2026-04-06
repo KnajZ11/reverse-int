@@ -4,7 +4,7 @@ it.optional = require('../extensions/it-optional');
 
 it.optional('Should return 261 when 162 given', () => {
   const reversed = reverse(162);
-
+ 
   assert.equal(reversed, 261);
 });
 
@@ -121,3 +121,4 @@ it.optional('Should return 535 when 535 given', () => {
 
   assert.equal(reversed, 535);
 });
+
